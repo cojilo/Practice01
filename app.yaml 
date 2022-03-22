@@ -1,0 +1,17 @@
+# Go Runtime
+runtime: go116
+
+instance_class: F1
+
+# Runtime Ver
+#api_version: go1
+#app_engine_apis: true
+
+# URL Pattern , Processing method
+handlers:
+
+# handlers
+- url: /
+
+# Application Root Directory
+  script: _go_app
